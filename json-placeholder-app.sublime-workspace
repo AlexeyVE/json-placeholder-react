@@ -1,0 +1,883 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"new",
+				"newTodoTitle"
+			],
+			[
+				"remove",
+				"remove_todo"
+			],
+			[
+				"R",
+				"REMOVE_TODO"
+			],
+			[
+				"N",
+				"NEW_TODO_TITLE"
+			],
+			[
+				"todo",
+				"todoList"
+			],
+			[
+				"Ca",
+				"Calendar"
+			],
+			[
+				"C",
+				"Calendar/"
+			],
+			[
+				"in",
+				"initialState"
+			],
+			[
+				"dia",
+				"dispatch"
+			],
+			[
+				"tod",
+				"todoItems"
+			],
+			[
+				"to",
+				"todoItems"
+			],
+			[
+				"setT",
+				"setTodoText"
+			],
+			[
+				"set",
+				"setCurrentText"
+			],
+			[
+				"Re",
+				"React"
+			],
+			[
+				"I",
+				"InputBase"
+			],
+			[
+				"Add",
+				"AddTodo\tsource_modules"
+			],
+			[
+				"A",
+				"AddIcon"
+			],
+			[
+				"add",
+				"add_todo"
+			],
+			[
+				"Menu",
+				"MenuIcon"
+			],
+			[
+				"redu",
+				"reducers/"
+			],
+			[
+				"red",
+				"reducer\tnode_modules/redux-form"
+			],
+			[
+				"G",
+				"GET_DATA"
+			],
+			[
+				"com",
+				"components/"
+			],
+			[
+				"p",
+				"padding\tproperty"
+			],
+			[
+				"box",
+				"box-shadow\tproperty"
+			],
+			[
+				"margin",
+				"margin-right\tproperty"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"ali",
+				"align-items\tproperty"
+			],
+			[
+				"a",
+				"align-content\tproperty"
+			],
+			[
+				"padding",
+				"padding-right\tproperty"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"Me",
+				"Message"
+			],
+			[
+				"pro",
+				"profileReducer.js"
+			],
+			[
+				"post",
+				"postBody"
+			],
+			[
+				"re",
+				"redux/"
+			],
+			[
+				"ne",
+				"newMsgBody"
+			],
+			[
+				"on",
+				"onSubmit"
+			],
+			[
+				"Mess",
+				"MessageForm"
+			],
+			[
+				"M",
+				"MessageForm.jsx"
+			],
+			[
+				"redux",
+				"reduxForm"
+			],
+			[
+				"fo",
+				"from"
+			],
+			[
+				"Login",
+				"LoginForm"
+			],
+			[
+				"Lo",
+				"LoginForm"
+			],
+			[
+				"form",
+				"formReducer"
+			],
+			[
+				"stat",
+				"status"
+			],
+			[
+				"pre",
+				"prevProps"
+			],
+			[
+				"sta",
+				"state\tReact: this.state."
+			],
+			[
+				"status",
+				"statusInput"
+			],
+			[
+				"di",
+				"disableEditMode"
+			],
+			[
+				"edit",
+				"editMode"
+			],
+			[
+				"u",
+				"undefined"
+			],
+			[
+				"get",
+				"getUsers"
+			],
+			[
+				"cla",
+				"classNames"
+			],
+			[
+				"B",
+				"BaseButton"
+			],
+			[
+				"es",
+				"editStatusCreator"
+			],
+			[
+				"E",
+				"EDIT_STATUS"
+			],
+			[
+				"profile",
+				"profileAPI"
+			],
+			[
+				"st",
+				"status"
+			],
+			[
+				"GET",
+				"GET_STATUS"
+			],
+			[
+				"e",
+				"editMode"
+			],
+			[
+				"P",
+				"ProfileStatus"
+			],
+			[
+				"auth",
+				"authCreator"
+			],
+			[
+				"use",
+				"usersAPI"
+			],
+			[
+				"user",
+				"userId"
+			],
+			[
+				"page",
+				"pageNumber"
+			],
+			[
+				"c",
+				"currentPage"
+			],
+			[
+				"ge",
+				"getUsers"
+			],
+			[
+				"thu",
+				"thunkMiddleware"
+			],
+			[
+				"toggle",
+				"toggleInprogress"
+			],
+			[
+				"T",
+				"TOGGLE_IN_PROGRESS"
+			],
+			[
+				"ca",
+				"catch"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"pa",
+				"pageSize"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"is",
+				"isAuth"
+			],
+			[
+				"au",
+				"authReducer"
+			],
+			[
+				"l",
+				"login"
+			],
+			[
+				"H",
+				"HeaderContainer"
+			],
+			[
+				"b",
+				"bold"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"magin",
+				"margin-left\tproperty"
+			],
+			[
+				"s",
+				"preloader.module.css"
+			],
+			[
+				"Pr",
+				"Preloader"
+			],
+			[
+				"pr",
+				"profile"
+			],
+			[
+				"r",
+				"redux/"
+			],
+			[
+				"ma",
+				"mapDispatchToProps"
+			],
+			[
+				"co",
+				"connect"
+			],
+			[
+				"usre",
+				"users"
+			],
+			[
+				"pos",
+				"position\tproperty"
+			],
+			[
+				"class",
+				"className"
+			],
+			[
+				"t",
+				"totalCount"
+			],
+			[
+				"cur",
+				"cursor\tproperty"
+			],
+			[
+				"SE",
+				"SET_CURRENT_PAGE"
+			],
+			[
+				"for",
+				"for\tfor (…) {…}"
+			],
+			[
+				"rd",
+				"rxreducer\treduxReducer"
+			],
+			[
+				"props",
+				"props\tcomponentProps"
+			],
+			[
+				"ru",
+				"return"
+			],
+			[
+				"un",
+				"unfollowCreator"
+			],
+			[
+				"follo",
+				"followCreator"
+			],
+			[
+				"map",
+				"mapStateToProps"
+			],
+			[
+				"users",
+				"usersReducer"
+			],
+			[
+				"Dia",
+				"Dialogs.jsx"
+			],
+			[
+				"onC",
+				"onChangeMessage"
+			],
+			[
+				"m",
+				"MyPosts"
+			],
+			[
+				"up",
+				"updateNewMessageCreator"
+			],
+			[
+				"reduc",
+				"redux-field-color\tredux-field-color"
+			],
+			[
+				"cre",
+				"createStore"
+			],
+			[
+				"d",
+				"dialogs"
+			],
+			[
+				"de",
+				"debugger"
+			],
+			[
+				"St",
+				"String"
+			],
+			[
+				"o",
+				"observer"
+			],
+			[
+				"U",
+				"updateNewMessageText"
+			],
+			[
+				"newMessage",
+				"newMessageText"
+			],
+			[
+				"ad",
+				"addPost"
+			],
+			[
+				"po",
+				"postMessage"
+			],
+			[
+				"L",
+				"likesCount"
+			],
+			[
+				"dial",
+				"dialogsElements"
+			],
+			[
+				"mess",
+				"messages"
+			],
+			[
+				"Profile",
+				"ProfileInfo"
+			],
+			[
+				"grid-te",
+				"grid-template-areas\tproperty"
+			],
+			[
+				"grid",
+				"grid-template-columns\tproperty"
+			],
+			[
+				"Na",
+				"NavLink"
+			],
+			[
+				"My",
+				"MyPosts"
+			],
+			[
+				"f",
+				"from"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"bo",
+				"border\tproperty"
+			],
+			[
+				"gri",
+				"grid-area\tproperty"
+			],
+			[
+				"margi",
+				"margin-bottom\tproperty"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"re",
+				"Package Control: Remove Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"REM",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"emmet",
+				"Toggle Comment"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 207.0,
+		"history":
+		[
+			"git init",
+			"git"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/F/web/react/json-placeholder-app"
+	],
+	"file_history":
+	[
+		"/F/web/react/my-app/src/redux/usersReducer.js",
+		"/F/web/react/my-app/src/redux/store.js",
+		"/F/web/react/todo/src/components/AddTodo/index.jsx",
+		"/F/web/react/todo/src/App.js",
+		"/F/web/react/todo/src/components/List/ToDo.jsx",
+		"/F/web/react/todo/src/components/List/index.jsx",
+		"/F/web/react/todo/src/reducers/index.js",
+		"/F/web/react/todo/src/components/Calendar/index.js",
+		"/F/web/react/todo/src/store/index.js",
+		"/F/web/react/my-app/src/redux/dialogsReducer.js",
+		"/F/web/react/my-app/src/redux/profileReducer.js",
+		"/F/web/react/todo/src/components/RemoveTodo/index.jsx",
+		"/F/web/react/todo/node_modules/postcss-merge-rules/node_modules/postcss-selector-parser/dist/selectors/constructors.js",
+		"/F/web/react/my-app/src/components/Dialogs/Dialogs.jsx",
+		"/F/web/react/todo/src/actions/index.js",
+		"/F/web/react/todo/src/firebase/keys.js",
+		"/F/web/react/todo/src/index.js",
+		"/F/web/react/todo/src/styles/index.scss",
+		"/F/web/react/todo/public/index.html",
+		"/F/web/react/todo/src/firebase/dev.js",
+		"/F/web/react/todo/src/firebase/index.js",
+		"/F/web/react/todo/yarn.lock",
+		"/F/web/react/my-app/src/components/Dialogs/DialogsContainer.jsx",
+		"/F/web/react/my-app/src/redux/reduxStore.js",
+		"/C/Users/Алексей/Downloads/react-todo-app-a7ee9-export.json",
+		"/F/web/react/todo/src/App.css",
+		"/F/web/react/todo/src/index.css",
+		"/F/web/react/my-app/src/App.js",
+		"/F/web/react/my-app/src/components/Profile/MyPosts/Post/AddPostForm.jsx",
+		"/F/web/react/my-app/src/components/Profile/MyPosts/MyPostsContainer.jsx",
+		"/F/web/react/my-app/src/components/Profile/MyPosts/MyPosts.jsx",
+		"/F/web/react/my-app/src/components/Dialogs/Message/MessageForm.jsx",
+		"/F/web/react/my-app/src/utils/validators/index.js",
+		"/F/web/react/my-app/src/components/Login/Login.jsx",
+		"/F/web/react/my-app-3/src/styles/index.scss",
+		"/F/web/react/my-app-3/src/index.js",
+		"/F/web/react/my-app-3/src/components/index.js",
+		"/F/web/react/my-app-3/src/App.js",
+		"/F/web/react/my-app-3/package.json",
+		"/F/web/react/my-app-3/README.md",
+		"/F/web/react/my-app/src/components/common/AuthRedirect/index.js",
+		"/F/web/react/my-app/src/components/Profile/ProfileInfo/ProfileInfo.jsx",
+		"/F/web/react/my-app/src/components/Profile/ProfileInfo/ProfileInfoContainer.jsx",
+		"/F/web/react/my-app/src/api/index.js",
+		"/F/web/react/my-app/src/components/Profile/ProfileInfo/profileInfo.module.scss",
+		"/F/web/react/my-app/src/components/Profile/ProfileInfo/ProfileStatus.jsx",
+		"/C/Users/Алексей/AppData/Roaming/Sublime Text 3/Packages/User/Colorsublime.sublime-settings",
+		"/C/Users/Алексей/AppData/Roaming/Sublime Text 3/Packages/Colorsublime/Colorsublime.sublime-settings",
+		"/F/web/react/my-app-3/src/index.scss",
+		"/F/web/react/my-app-3/src/components/Button/Button.scss",
+		"/F/web/react/my-app-3/src/components/Button/index.js",
+		"/F/web/react/my-app-3/src/logo.svg",
+		"/F/web/react/my-app/src/redux/authReducer.js",
+		"/F/web/react/my-app/src/components/Users/User/User.jsx",
+		"/F/web/react/my-app/src/components/Header/HeaderContainer.jsx",
+		"/F/web/react/my-app/src/components/Header/Header.jsx",
+		"/F/web/react/my-app/src/components/Users/UsersContainer.jsx",
+		"/F/web/react/my-app/src/components/Users/Users.jsx",
+		"/F/web/react/my-app/.prettierrc",
+		"/C/Users/Алексей/AppData/Roaming/Sublime Text 3/Packages/User/JsPrettier.sublime-settings",
+		"/C/Users/Алексей/AppData/Roaming/Sublime Text 3/Packages/JsPrettier/JsPrettier.sublime-settings",
+		"/F/web/react/my-app/package.json",
+		"/C/Users/Алексей/AppData/Roaming/Sublime Text 3/Packages/Git/Git.sublime-settings",
+		"/F/web/react/my-app/node_modules/compose-function/module/index.js",
+		"/F/web/react/my-app/node_modules/arity-n/test.js",
+		"/F/web/react/my-app/src/components/common/authRedirect/index.js",
+		"/C/Users/Алексей/AppData/Roaming/Sublime Text 3/Packages/User/Git.sublime-settings",
+		"/F/web/react/my-app/src/components/Users/User/user.module.scss",
+		"/F/web/react/my-app/src/components/common/Preloader/preloader.module.css",
+		"/F/web/react/my-app/src/components/common/EmptyPhoto/index.js",
+		"/F/web/react/my-app/src/index.js",
+		"/F/web/react/my-app/src/components/common/Preloader/index.js",
+		"/F/web/react/my-app/src/index.scss",
+		"/F/web/react/my-app/src/App.css",
+		"/F/web/spinkit230518/index.html",
+		"/F/web/react/my-app/src/components/Profile/Profile.jsx",
+		"/F/web/react/my-app/src/components/Header/header.module.scss",
+		"/F/web/react/my-app/src/components/common/EmptyPhoto/empty.module.scss",
+		"/F/web/react/my-app/src/components/common/Preloader/style.scss",
+		"/F/web/spinkit230518/js/index.js",
+		"/F/web/cube-loader100218/index.html",
+		"/F/web/cube-loader100218/scss/style.scss",
+		"/F/web/react/my-app/src/components/Profile/ProfileInfo/ProfileInfo.module.scss",
+		"/F/web/react/my-app/node_modules/bluebird/js/release/props.js",
+		"/F/web/react/my-app/.eslintrc",
+		"/F/web/react/my-app/src/components/Users/users.module.css",
+		"/F/web/react/my-app-2/package.json",
+		"/C/Users/Алексей/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Алексей/AppData/Roaming/Sublime Text 3/Packages/Emmet/Default (Windows).sublime-keymap",
+		"/F/web/react/my-app/src/StoreContext.js",
+		"/F/web/react/my-app/src/index.css",
+		"/F/web/react/my-app/src/reset.css",
+		"/F/web/react/my-app/src/components/Users/UsersC.jsx",
+		"/F/web/react/my-app/src/components/Nav/Nav.jsx",
+		"/F/web/react/my-app/src/components/Users/Users.module.css",
+		"/F/web/tympanus.net/CreativeButtons/index.html",
+		"/F/web/tympanus.net/CreativeButtons/css/component.css",
+		"/F/web/react/my-app/node_modules/react-redux/lib/connect/connect.js",
+		"/F/web/react/my-app/node_modules/react-redux/dist/react-redux.js",
+		"/F/web/react/my-app/src/css/demo.css",
+		"/F/web/react/my-app/src/redux/sidebarReducer.js",
+		"/F/web/react/my-app/src/components/Music/Music.jsx",
+		"/F/web/react/my-app/src/components/Dialogs/Message/Message.jsx",
+		"/F/web/react/my-app/src/components/Settings/Settings.jsx",
+		"/F/web/react/my-app/src/components/News/News.jsx",
+		"/F/web/react/my-app/src/Data/posts.json",
+		"/F/web/react/my-app/src/components/Dialogs/Message/Message.module.css",
+		"/F/web/react/my-app/src/components/Dialogs/Dialog/DialogItem.jsx",
+		"/F/web/tympanus.net/CreativeLinkEffects/index.html",
+		"/F/web/react/my-app/src/components/Profile/My posts/Post/Post.jsx",
+		"/F/web/react/my-app/node_modules/react-dom/cjs/react-dom.development.js",
+		"/F/web/react/my-app/src/components/Profile/My posts/MyPosts.jsx",
+		"/F/web/react/my-app/src/components/Profile/My posts/MyPostsContainer.jsx",
+		"/F/web/react/my-app/src/components/Dialogs/Dialogs.module.css",
+		"/F/web/react/my-app/src/components/Profile/ProfileInfo/ProfileInfo.module.css",
+		"/F/web/react/my-app/node_modules/redux/dist/redux.js",
+		"/F/web/react/my-app/node_modules/redux/README.md",
+		"/F/web/react/my-app/src/css/component.css",
+		"/F/web/tympanus.net/CreativeLinkEffects/README.md",
+		"/F/web/tympanus.net/CreativeLinkEffects/css/normalize.css",
+		"/F/web/tympanus.net/CreativeLinkEffects/css/demo.css",
+		"/F/web/react/my-app/src/render.js",
+		"/F/web/react/my-app/node_modules/jest-environment-jsdom-fourteen/node_modules/jsdom/lib/jsdom/living/window/History-impl.js",
+		"/C/Users/Алексей/AppData/Roaming/Sublime Text 3/Packages/Babel/Babel.sublime-settings",
+		"/C/Users/Алексей/AppData/Roaming/Sublime Text 3/Packages/User/Babel.sublime-settings",
+		"/C/Users/Алексей/AppData/Roaming/Sublime Text 3/Packages/Terminal/Terminal.sublime-settings",
+		"/C/Users/Алексей/AppData/Roaming/Sublime Text 3/Packages/Terminal/Default (Windows).sublime-keymap",
+		"/F/web/react/my-app/src/Data/usersList.json"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 132.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"profile"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 49.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.SublimeLinter Messages":
+	{
+		"height": 151.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "json-placeholder-app.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 393.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
