@@ -1,19 +1,41 @@
 import axios from 'axios'
 
+export const api = {
 
+} 
 const instance = axios.create({
   baseURL: 'https://jsonplaceholder.typicode.com/'
 })
 
-export const api = {
-  getAllUsers: () => instance.get('/users'),
-  getCurrentUserPosts: ( id ) => {
-    return instance.get('/posts', { params: {
-      userId: id
-    }})
-  },
-  getCurrentUserAlbums: ( id ) => {
-    return instance.get('/albums',{ params: {
-      userId: id }})
-  }
+export default async () => {
+  const users = await instance.get('/users'),
+        posts = await instance.get('/posts'),
+        albums = await instance.get('/albums'),
+        comments = await instance.get('/comments'),
+        photos = await instance.get('/photos')
+ return { users, posts, albums, comments, photos }       
 }
+export const dataFilter = ( data, id ) => {
+  return data = data.filter( el => el.userId == id )
+}
+
+// export const api = {
+//   getAllUsers: () => instance.get('/users'),
+//   getCurrentUserPosts: ( id ) => {
+//     return instance.get('/posts', { params: {
+//       userId: id
+//     }})
+//   },
+//   // gelAllData:() => instance.all(['/users','/posts','/albums','/comments','/photos'])
+//   // .then(instance.spread((...res) => 
+//   // getCurrentUserAlbums: ( id ) => {
+//   //   return instance.get('/albums',{ params: {
+//   //     userId: id }})
+//   // }
+// }
+
+
+
+
+
+

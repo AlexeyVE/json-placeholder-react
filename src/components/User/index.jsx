@@ -5,11 +5,11 @@ import { NavLink } from 'react-router-dom'
 
 
 
-export default ({ name,userId }) => {
+export default ({ name, userId }) => {
   return (
     <div className = "user">
       <div>
-       <NavLink to = { `/profile/${ name}/${userId}`} >
+       <NavLink to = { `/profile/${userId}/${name}`} >
         { name }
        </NavLink> 
       </div>

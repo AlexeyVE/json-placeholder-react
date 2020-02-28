@@ -1,34 +1,38 @@
 import React, { useEffect } from 'react'
 import { compose } from 'redux'
 import { connect } from 'react-redux'
-import { withRouter } from 'react-router-dom'
-import { getCurrentUserPosts, getCurrentUserAlbums } from '../../reducers/'
+import { withRouter, NavLink } from 'react-router-dom'
+import { getCurrentUserData } from '../../reducers'
+
 import Posts from '../Posts/'
 import Albums from '../Albums/'
 
-const Profile = ( { getCurrentUserAlbums, getCurrentUserPosts, posts, albums, ...props } ) => {
-  let userId = props.match.params.userId, name = props.match.params.userName
-  useEffect( () => {
-    if( posts.length === 0 ) getCurrentUserPosts( userId )
-    if( albums.length === 0 ) getCurrentUserAlbums( userId )  
-  },[ posts,albums ])
-  alert(userId)
-  return (
+const Profile = ( { getCurrentUserData, allPosts, allAlbums,...props } ) => {
+  let userId = props.match.params.id,
+      name = props.match.params.name
+  useEffect(() => { getCurrentUserData( allPosts, allAlbums, userId ) },[ userId ])
+  console.log(userId)
+   return (
     <div>
-      <h4> { name } </h4>
-      <Posts posts = { posts }/>
-      <Albums albums = { albums } />
+      <h3>{ name }</h3>
+      <NavLink to = "">-[ Back ]-</NavLink>
+      <Posts posts = { props.currentUserPosts}/>
+      <Albums albums = { props.currentUserAlbums }/>
     </div>
     )
 }
 
 const mapStateToProps = ( state ) => {
-  return { 
-    posts: state.data.posts,
-    albums: state.data.albums,
+  return {
+    currentUserAlbums: state.allData.currentUserAlbums,
+    currentUserPosts: state.allData.currentUserPosts,
+    allPosts: state.allData.data.posts.data,
+    allAlbums: state.allData.data.albums.data,
   }
 }
 
-export default compose( connect( mapStateToProps, { getCurrentUserPosts,getCurrentUserAlbums } ),
-                        withRouter)( Profile )
+export default compose( connect( mapStateToProps,{ getCurrentUserData } ), 
+                        withRouter )(Profile)
+
+
 

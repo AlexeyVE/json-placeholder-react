@@ -1,11 +1,11 @@
 import { createStore, combineReducers,applyMiddleware } from 'redux'
 import thunkMiddleware from 'redux-thunk'
 import logger from 'redux-logger'
-import data from '../reducers/'
+import allData from '../reducers/'
 
 
 const rootReducer = combineReducers({
-  data
+  allData
 })
 
 export default createStore( rootReducer, applyMiddleware( logger,thunkMiddleware ))
