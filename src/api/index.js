@@ -19,6 +19,14 @@ export const dataFilter = ( data, id ) => {
   return data = data.filter( el => el.userId == id )
 }
 
+export const randomUserPhoto = () => {
+  let number = Math.round( Math.random() * 90 ),img
+  (number > 45)
+  ? img= `https://randomuser.me/api/portraits/women/${number}.jpg`
+  : img =`https://randomuser.me/api/portraits/men/${number}.jpg`
+  return img
+}
+
 // export const api = {
 //   getAllUsers: () => instance.get('/users'),
 //   getCurrentUserPosts: ( id ) => {

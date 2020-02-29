@@ -14,6 +14,7 @@ const Profile = ( { getCurrentUserData, allPosts, allAlbums,...props } ) => {
   console.log(userId)
    return (
     <div>
+      {console.log('profile_render')}
       <h3>{ name }</h3>
       <NavLink to = "">-[ Back ]-</NavLink>
       <Posts posts = { props.currentUserPosts}/>

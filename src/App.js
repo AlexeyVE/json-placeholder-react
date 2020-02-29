@@ -6,7 +6,8 @@ import Profile from './components/Profile'
 import  { getData } from './reducers'
 
 const App = ({ users, isEmpty, getData }) => {
-  useEffect( () => { if( isEmpty ) getData() }, [isEmpty])
+  console.log(users)
+  useEffect( () => { if( isEmpty ) getData() }, [ isEmpty ])
   if (isEmpty) return (<div>Loading.......</div>)
   return (
     <div className="App">
@@ -17,6 +18,7 @@ const App = ({ users, isEmpty, getData }) => {
 } 
 
 const mapStateToProps = ( state ) => {
+  console.log('render')
   return {
     users : state.allData.data.users,
     isEmpty: state.allData.isEmpty
