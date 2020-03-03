@@ -5,8 +5,7 @@ import User from '../User/'
 
 
 const Users = ( { usersData,...props } ) => {
-    console.log(usersData)
-    usersData = usersData.map( ( user, index ) => <User key = { index } 
+    const usersList = usersData.map( ( user, index ) => <User key = { index } 
                                                         userId = { user.id } 
                                                         name = { user.name }
                                                         address = { user.address }
@@ -14,8 +13,8 @@ const Users = ( { usersData,...props } ) => {
                                                         phone = { user.phone }/>
                                                         )
   return (
-    <div className = "uk-child-width-1-4@m uk-grid-match " uk-grid = "true">
-        { usersData }
+    <div className = "uk-grid-small uk-child-width-1-4@m uk-grid-match" uk-grid = "true">
+        { usersList }
     </div>  
     )
   }

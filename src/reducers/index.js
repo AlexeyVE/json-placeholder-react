@@ -8,6 +8,7 @@ const GET_ALL_DATA = 'GET_ALL_DATA'
 
 let initialState = {
   data: {},
+  userPhoto:null,
   currentUserPosts: [],
   currentUserAlbums: [],
   isEmpty: true,

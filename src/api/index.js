@@ -20,11 +20,11 @@ export const dataFilter = ( data, id ) => {
 }
 
 export const randomUserPhoto = () => {
-  let number = Math.round( Math.random() * 90 ),img
+  let number = Math.round( Math.random() * 90 ),imgSrc
   (number > 45)
-  ? img= `https://randomuser.me/api/portraits/women/${number}.jpg`
-  : img =`https://randomuser.me/api/portraits/men/${number}.jpg`
-  return img
+  ? imgSrc = `https://randomuser.me/api/portraits/women/${number}.jpg`
+  : imgSrc =`https://randomuser.me/api/portraits/men/${number}.jpg`
+  return imgSrc
 }
 
 // export const api = {

@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"pa",
+				"padding\tproperty"
+			],
+			[
+				"bac",
+				"background-position"
+			],
+			[
 				"border",
 				"border-bottom"
 			],
@@ -180,10 +188,6 @@
 				"padding-right\tproperty"
 			],
 			[
-				"bac",
-				"background-color"
-			],
-			[
 				"Me",
 				"Message"
 			],
@@ -334,10 +338,6 @@
 			[
 				"marg",
 				"margin-top"
-			],
-			[
-				"pa",
-				"pageSize"
 			],
 			[
 				"min",
@@ -520,10 +520,46 @@
 	"buffers":
 	[
 		{
-			"file": "src/reducers/index.js",
+			"file": "src/App.js",
 			"settings":
 			{
-				"buffer_size": 1575,
+				"buffer_size": 1017,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/index.js",
+			"settings":
+			{
+				"buffer_size": 727,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/components/User/index.jsx",
+			"settings":
+			{
+				"buffer_size": 2881,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/components/Profile/index.jsx",
+			"settings":
+			{
+				"buffer_size": 2945,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/styles/index.css",
+			"settings":
+			{
+				"buffer_size": 1226,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -538,111 +574,19 @@
 			}
 		},
 		{
-			"contents": "const INITIALIZE = 'INITIALIZE'\n\nconst initialState = {\n  initialize: false \n}\n\nexport default ( state = initialState, action ) {\n  switch ( action.type ) {\n    case INITIALIZE: \n      return { ...state, initialize: action.payload }\n    default: return state  \n  }\n}\n\nconst set_initialize = () => ({ type: INITIALIZE, payload })\n\nexport const setInitialize = () => dispatch => {\n  dispatch( set_initialize( true ))\n}",
-			"file": "src/reducers/app_reducer.js",
-			"file_size": 435,
-			"file_write_time": 132272726998166527,
-			"settings":
-			{
-				"buffer_size": 416,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/F/web/react/my-app/src/redux/appReducer.js",
-			"settings":
-			{
-				"buffer_size": 589,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/store/index.js",
-			"settings":
-			{
-				"buffer_size": 317,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/api/index.js",
-			"settings":
-			{
-				"buffer_size": 1296,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/index.js",
-			"settings":
-			{
-				"buffer_size": 728,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/App.js",
-			"settings":
-			{
-				"buffer_size": 853,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "src/components/Users/index.jsx",
 			"settings":
 			{
-				"buffer_size": 902,
+				"buffer_size": 894,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/components/Post/index.jsx",
-			"settings":
-			{
-				"buffer_size": 186,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/components/Profile/index.jsx",
-			"settings":
-			{
-				"buffer_size": 1175,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "import React from 'react'\nimport Post from '../Post/'\n\nexport default ( { posts } ) => {\n  posts = posts.map( post => <Post key ={ post.id }\n                                   postTitle = { post.title }\n                                   postBody = { post.body }/>)\n  return (\n    <div className = \"posts\">\n    <h3>Posts</h3>\n      { posts } \n    </div>\n  )\n}\n\n<article class=\"uk-article\">\n\n    <h1 class=\"uk-article-title\"><a class=\"uk-link-reset\" href=\"\">Heading</a></h1>\n\n    <p class=\"uk-article-meta\">Written by <a href=\"#\">Super User</a> on 12 April 2012. Posted in <a href=\"#\">Blog</a></p>\n\n    <p class=\"uk-text-lead\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>\n\n    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\n\n    <div class=\"uk-grid-small uk-child-width-auto\" uk-grid>\n        <div>\n            <a class=\"uk-button uk-button-text\" href=\"#\">Read more</a>\n        </div>\n        <div>\n            <a class=\"uk-button uk-button-text\" href=\"#\">5 Comments</a>\n        </div>\n    </div>\n\n</article>",
-			"file": "src/components/Posts/index.jsx",
-			"file_size": 372,
-			"file_write_time": 132273720010437127,
-			"settings":
-			{
-				"buffer_size": 1580,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "package.json",
-			"settings":
-			{
-				"buffer_size": 1023,
-				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "src/components/Albums/index.jsx",
 			"settings":
 			{
-				"buffer_size": 371,
+				"buffer_size": 422,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -651,44 +595,46 @@
 			"file": "src/components/Album/index.jsx",
 			"settings":
 			{
-				"buffer_size": 149,
+				"buffer_size": 173,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "src/components/User/index.jsx",
+			"file": "src/components/Post/index.jsx",
 			"settings":
 			{
-				"buffer_size": 2901,
+				"buffer_size": 274,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "import React from 'react'\nimport { NavLink } from 'react-router-dom'\nimport EmptyPhoto from '../../common/EmptyPhoto/'\nimport style from './user.module.scss'\n/*import axios from 'axios'*/\nimport { usersAPI } from '../../../api/'\n\nconst User = ( props ) => {\n  // let url = 'https://social-network.samuraijs.com/api/1.0/follow/'\n  let follow = () => { \n    // axios.post( url + props.userId, {}, { withCredentials:true,\n    //                                       headers:{\n    //                                         \"API-KEY\":\"997b5ad2-6cec-45f5-8b70-71df99852bbb\"\n    //                                       }\n    //                                   })\n    \n    usersAPI.follow( props.userId ).then( res => {\n      if ( res.data.resultCode === 0 ) {\n        props.follow( props.userId )\n      }\n    }).catch( err => console.log( err ) )\n  }\n  let unfollow = () => {\n    // axios.delete( url + props.userId, { withCredentials:true,\n    //                                     headers: {\n    //                                       \"API-KEY\":\"997b5ad2-6cec-45f5-8b70-71df99852bbb\"\n    //                                     }\n    //                                   })\n    usersAPI.unfollow( props.userId ).then( res => {\n      if ( res.data.resultCode === 0 ) {\n        props.unfollow( props.userId )\n      }\n    }).catch( err => console.log( err ) )\n  }  \n\n  return (\n    <div className = { style.userWrapper } >\n      <h5>{ props.name }</h5>\n      <NavLink to = { '/profile/' + props.userId }>\n        { !props.photos\n          ? <EmptyPhoto /> \n          : <img className = { style.userPhoto } src = { props.photos } alt =\"empty\"/>\n        }\n      </NavLink>\n      <span>{ props.status }</span>\n      { props.followed \n        ? <button onClick = { unfollow }>Unfollow</button>                   \n        : <button onClick = { follow }>Follow</button>\n      }  \n    </div>\n  )\n}\nexport default User",
-			"file": "/F/web/react/my-app/src/components/Users/User/User.jsx",
-			"file_size": 1958,
-			"file_write_time": 132268318209860823,
+			"file": "src/components/Posts/index.jsx",
 			"settings":
 			{
-				"buffer_size": 1909,
+				"buffer_size": 374,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/F/web/react/my-app/src/App.js",
+			"file": "src/reducers/index.js",
 			"settings":
 			{
-				"buffer_size": 1766,
-				"line_ending": "Unix"
+				"buffer_size": 1593,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "src/styles/index.scss",
+			"contents": "import axios from 'axios'\n\nexport const api = {\n\n} \nconst instance = axios.create({\n  baseURL: 'https://jsonplaceholder.typicode.com/'\n})\n\nexport default async () => {\n  const users = await instance.get('/users'),\n        posts = await instance.get('/posts'),\n        albums = await instance.get('/albums'),\n        comments = await instance.get('/comments'),\n        photos = await instance.get('/photos')\n return { users, posts, albums, comments, photos }       \n}\nexport const dataFilter = ( data, id ) => {\n  return data = data.filter( el => el.userId == id )\n}\n\nexport const randomUserPhoto = () => {\n  let number = Math.round( Math.random() * 90 ),imgSrc\n  (number > 45)\n  ? imgSrc= `https://randomuser.me/api/portraits/women/${number}.jpg`\n  : imgSrc=`https://randomuser.me/api/portraits/men/${number}.jpg`\n  return imgSrc\n}\n\n// export const api = {\n//   getAllUsers: () => instance.get('/users'),\n//   getCurrentUserPosts: ( id ) => {\n//     return instance.get('/posts', { params: {\n//       userId: id\n//     }})\n//   },\n//   // gelAllData:() => instance.all(['/users','/posts','/albums','/comments','/photos'])\n//   // .then(instance.spread((...res) => \n//   // getCurrentUserAlbums: ( id ) => {\n//   //   return instance.get('/albums',{ params: {\n//   //     userId: id }})\n//   // }\n// }\n\n\n\n\n\n\n",
+			"file": "src/api/index.js",
+			"file_size": 1356,
+			"file_write_time": 132276215049769475,
 			"settings":
 			{
-				"buffer_size": 549,
+				"buffer_size": 1307,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -794,15 +740,41 @@
 	[
 		"/F/web/react/json-placeholder-app",
 		"/F/web/react/json-placeholder-app/src",
+		"/F/web/react/json-placeholder-app/src/api",
 		"/F/web/react/json-placeholder-app/src/components",
+		"/F/web/react/json-placeholder-app/src/components/Album",
+		"/F/web/react/json-placeholder-app/src/components/Albums",
+		"/F/web/react/json-placeholder-app/src/components/Photos",
+		"/F/web/react/json-placeholder-app/src/components/Post",
 		"/F/web/react/json-placeholder-app/src/components/Posts",
+		"/F/web/react/json-placeholder-app/src/components/Profile",
 		"/F/web/react/json-placeholder-app/src/components/User",
 		"/F/web/react/json-placeholder-app/src/components/Users",
-		"/F/web/react/json-placeholder-app/src/reducers",
 		"/F/web/react/json-placeholder-app/src/styles"
 	],
 	"file_history":
 	[
+		"/F/web/static/css/style.css",
+		"/F/web/static/js/script.js",
+		"/F/web/static/index.html",
+		"/F/web/react/json-placeholder-app/src/reducers/index.js",
+		"/F/web/react/json-placeholder-app/src/styles/index.scss",
+		"/F/web/react/my-app/src/App.js",
+		"/F/web/react/json-placeholder-app/public/index.html",
+		"/F/web/react/my-app/src/components/Users/User/User.jsx",
+		"/F/web/react/json-placeholder-app/src/components/User/index.jsx",
+		"/F/web/react/json-placeholder-app/src/reducers/app_reducer.js",
+		"/F/web/react/json-placeholder-app/src/components/Album/index.jsx",
+		"/F/web/react/json-placeholder-app/src/components/Albums/index.jsx",
+		"/F/web/react/json-placeholder-app/src/components/Posts/index.jsx",
+		"/F/web/react/json-placeholder-app/src/components/Profile/index.jsx",
+		"/F/web/react/json-placeholder-app/src/components/Post/index.jsx",
+		"/F/web/react/json-placeholder-app/src/components/Users/index.jsx",
+		"/F/web/react/json-placeholder-app/src/App.js",
+		"/F/web/react/json-placeholder-app/src/index.js",
+		"/F/web/react/json-placeholder-app/src/api/index.js",
+		"/F/web/react/json-placeholder-app/src/store/index.js",
+		"/F/web/react/my-app/src/redux/appReducer.js",
 		"/F/web/react/json-placeholder-app/node_modules/@babel/generator/lib/buffer.js",
 		"/F/web/react/my-app/src/components/Profile/ProfileInfo/ProfileInfoContainer.jsx",
 		"/F/web/react/my-app/src/components/Users/Users.jsx",
@@ -838,7 +810,6 @@
 		"/C/Users/Алексей/Downloads/react-todo-app-a7ee9-export.json",
 		"/F/web/react/todo/src/App.css",
 		"/F/web/react/todo/src/index.css",
-		"/F/web/react/my-app/src/App.js",
 		"/F/web/react/my-app/src/components/Profile/MyPosts/Post/AddPostForm.jsx",
 		"/F/web/react/my-app/src/components/Profile/MyPosts/MyPostsContainer.jsx",
 		"/F/web/react/my-app/src/components/Profile/MyPosts/MyPosts.jsx",
@@ -863,7 +834,6 @@
 		"/F/web/react/my-app-3/src/components/Button/index.js",
 		"/F/web/react/my-app-3/src/logo.svg",
 		"/F/web/react/my-app/src/redux/authReducer.js",
-		"/F/web/react/my-app/src/components/Users/User/User.jsx",
 		"/F/web/react/my-app/src/components/Header/HeaderContainer.jsx",
 		"/F/web/react/my-app/src/components/Header/Header.jsx",
 		"/F/web/react/my-app/.prettierrc",
@@ -911,30 +881,11 @@
 		"/F/web/react/my-app/src/components/Music/Music.jsx",
 		"/F/web/react/my-app/src/components/Dialogs/Message/Message.jsx",
 		"/F/web/react/my-app/src/components/Settings/Settings.jsx",
-		"/F/web/react/my-app/src/components/News/News.jsx",
-		"/F/web/react/my-app/src/Data/posts.json",
-		"/F/web/react/my-app/src/components/Dialogs/Message/Message.module.css",
-		"/F/web/react/my-app/src/components/Dialogs/Dialog/DialogItem.jsx",
-		"/F/web/tympanus.net/CreativeLinkEffects/index.html",
-		"/F/web/react/my-app/src/components/Profile/My posts/Post/Post.jsx",
-		"/F/web/react/my-app/node_modules/react-dom/cjs/react-dom.development.js",
-		"/F/web/react/my-app/src/components/Profile/My posts/MyPosts.jsx",
-		"/F/web/react/my-app/src/components/Profile/My posts/MyPostsContainer.jsx",
-		"/F/web/react/my-app/src/components/Dialogs/Dialogs.module.css",
-		"/F/web/react/my-app/src/components/Profile/ProfileInfo/ProfileInfo.module.css",
-		"/F/web/react/my-app/node_modules/redux/dist/redux.js",
-		"/F/web/react/my-app/node_modules/redux/README.md",
-		"/F/web/react/my-app/src/css/component.css",
-		"/F/web/tympanus.net/CreativeLinkEffects/README.md",
-		"/F/web/tympanus.net/CreativeLinkEffects/css/normalize.css",
-		"/F/web/tympanus.net/CreativeLinkEffects/css/demo.css",
-		"/F/web/react/my-app/src/render.js",
-		"/F/web/react/my-app/node_modules/jest-environment-jsdom-fourteen/node_modules/jsdom/lib/jsdom/living/window/History-impl.js",
-		"/C/Users/Алексей/AppData/Roaming/Sublime Text 3/Packages/Babel/Babel.sublime-settings"
+		"/F/web/react/my-app/src/components/News/News.jsx"
 	],
 	"find":
 	{
-		"height": 29.0
+		"height": 44.0
 	},
 	"find_in_files":
 	{
@@ -948,6 +899,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"class",
+			">\n",
 			"class",
 			"profile"
 		],
@@ -968,29 +921,29 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 8,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "src/reducers/index.js",
+					"file": "src/App.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1575,
+						"buffer_size": 1017,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1575,
-								1575
+								475,
+								475
 							]
 						],
 						"settings":
 						{
-							"color_helper.box_height": 20,
+							"color_helper.box_height": 19,
 							"color_helper.color_scheme": "Monokai.sublime-color-scheme",
 							"color_helper.file_palette":
 							[
@@ -1001,23 +954,248 @@
 							"color_helper.scan":
 							{
 								"current_ext": ".js",
-								"current_syntax": "JavaScript/JavaScript",
+								"current_syntax": "Babel/JavaScript (Babel)",
 								"enabled": false,
-								"last_updated": 1582987257.59
+								"last_updated": 1583223081.12
 							},
 							"git_savvy.repo_path": "F:\\web\\react\\json-placeholder-app",
-							"open_with_edit": true,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
+					"file": "src/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 727,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								273,
+								273
+							]
+						],
+						"settings":
+						{
+							"color_helper.box_height": 19,
+							"color_helper.color_scheme": "Monokai.sublime-color-scheme",
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.preview_meta":
+							{
+							},
+							"color_helper.scan":
+							{
+								"current_ext": ".js",
+								"current_syntax": "Babel/JavaScript (Babel)",
+								"enabled": false,
+								"last_updated": 1583223081.12
+							},
+							"git_savvy.repo_path": "F:\\web\\react\\json-placeholder-app",
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/components/User/index.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2881,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								262,
+								262
+							]
+						],
+						"settings":
+						{
+							"color_helper.box_height": 19,
+							"color_helper.color_scheme": "Monokai.sublime-color-scheme",
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.preview_meta":
+							{
+							},
+							"color_helper.scan":
+							{
+								"current_ext": ".jsx",
+								"current_syntax": "Babel/JavaScript (Babel)",
+								"enabled": false,
+								"last_updated": 1583223081.12
+							},
+							"git_savvy.repo_path": "F:\\web\\react\\json-placeholder-app",
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 228.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/components/Profile/index.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2945,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2220,
+								2220
+							]
+						],
+						"settings":
+						{
+							"color_helper.box_height": 19,
+							"color_helper.color_scheme": "Monokai.sublime-color-scheme",
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.preview_meta":
+							{
+							},
+							"color_helper.scan":
+							{
+								"current_ext": ".jsx",
+								"current_syntax": "Babel/JavaScript (Babel)",
+								"enabled": false,
+								"last_updated": 1583223081.12
+							},
+							"git_savvy.repo_path": "F:\\web\\react\\json-placeholder-app",
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 570.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/styles/index.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1226,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								603,
+								603
+							]
+						],
+						"settings":
+						{
+							"color_helper.box_height": 19,
+							"color_helper.color_scheme": "Monokai.sublime-color-scheme",
+							"color_helper.file_palette":
+							[
+								"#e5e5e5ff"
+							],
+							"color_helper.no_auto": false,
+							"color_helper.popup_active": false,
+							"color_helper.popup_auto": true,
+							"color_helper.preview_meta":
+							{
+								"596":
+								[
+									-1409093640,
+									7,
+									"hex",
+									1680386269,
+									16,
+									"1583240083.586748"
+								]
+							},
+							"color_helper.scan":
+							{
+								"allowed_colors":
+								[
+									"hsla",
+									"hsl",
+									"hwb",
+									"hexa_compressed",
+									"graya",
+									"gray",
+									"hexa",
+									"rgb",
+									"hex_compressed",
+									"hex",
+									"hwba",
+									"rgba",
+									"webcolors"
+								],
+								"compress_hex_output": true,
+								"current_ext": ".css",
+								"current_syntax": "CSS/CSS",
+								"enabled": true,
+								"last_updated": 1583223081.12,
+								"scan_completion_scopes":
+								[
+								],
+								"scan_scopes":
+								[
+									"meta.declaration-list.css -support.type.property-name.css -comment -string",
+									"meta.property-value.css -comment -string",
+									"meta.value.css -comment -string",
+									"meta.tag.inline.any.html string.quoted -constant.character.entity.html",
+									"meta.tag.any.html meta.attribute-with-value.style.html"
+								],
+								"use_hex_argb": false
+							},
+							"git_savvy.repo_path": "F:\\web\\react\\json-placeholder-app",
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 171.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
 					"file": "public/index.html",
 					"semi_transient": false,
 					"settings":
@@ -1029,41 +1207,53 @@
 						"selection":
 						[
 							[
-								1992,
-								1992
+								1395,
+								1395
 							]
 						],
 						"settings":
 						{
-							"color_helper.box_height": 20,
+							"color_helper.box_height": 19,
 							"color_helper.color_scheme": "Monokai.sublime-color-scheme",
 							"color_helper.file_palette":
 							[
 								"#000000ff"
 							],
+							"color_helper.preview_meta":
+							{
+								"240":
+								[
+									-256954022,
+									7,
+									"hex",
+									-276467369,
+									1,
+									"1583238757.119066"
+								]
+							},
 							"color_helper.scan":
 							{
 								"allowed_colors":
 								[
-									"hexa",
-									"hex",
-									"graya",
-									"hwba",
 									"hsla",
 									"hsl",
 									"hwb",
-									"hex_compressed",
-									"webcolors",
-									"gray",
-									"rgba",
 									"hexa_compressed",
-									"rgb"
+									"graya",
+									"gray",
+									"hexa",
+									"rgb",
+									"hex_compressed",
+									"hex",
+									"hwba",
+									"rgba",
+									"webcolors"
 								],
 								"compress_hex_output": true,
 								"current_ext": ".html",
 								"current_syntax": "HTML/HTML",
 								"enabled": true,
-								"last_updated": 1582969527.41,
+								"last_updated": 1583223081.12,
 								"scan_completion_scopes":
 								[
 								],
@@ -1083,250 +1273,45 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 540.0,
+						"translation.y": 513.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "src/reducers/app_reducer.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 416,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								414,
-								414
-							]
-						],
-						"settings":
-						{
-							"color_helper.box_height": 20,
-							"color_helper.color_scheme": "Monokai.sublime-color-scheme",
-							"color_helper.file_palette":
-							[
-							],
-							"color_helper.scan":
-							{
-								"current_ext": ".js",
-								"current_syntax": "JavaScript/JavaScript",
-								"enabled": false,
-								"last_updated": 1582904088.42
-							},
-							"git_savvy.repo_path": "F:\\web\\react\\json-placeholder-app",
-							"open_with_edit": true,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/F/web/react/my-app/src/redux/appReducer.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 589,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								425,
-								454
-							]
-						],
-						"settings":
-						{
-							"color_helper.box_height": 20,
-							"color_helper.color_scheme": "Monokai.sublime-color-scheme",
-							"color_helper.file_palette":
-							[
-							],
-							"color_helper.scan":
-							{
-								"current_ext": ".js",
-								"current_syntax": "JavaScript/JavaScript",
-								"enabled": false,
-								"last_updated": 1582795304.05
-							},
-							"git_savvy.repo_path": "F:\\web\\react\\my-app",
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 17,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "src/store/index.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 317,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								222,
-								229
-							]
-						],
-						"settings":
-						{
-							"color_helper.box_height": 20,
-							"color_helper.color_scheme": "Monokai.sublime-color-scheme",
-							"color_helper.file_palette":
-							[
-							],
-							"color_helper.scan":
-							{
-								"current_ext": ".js",
-								"current_syntax": "JavaScript/JavaScript",
-								"enabled": false,
-								"last_updated": 1582892961.16
-							},
-							"git_savvy.repo_path": "F:\\web\\react\\json-placeholder-app",
-							"open_with_edit": true,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 14,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "src/api/index.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1296,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								791,
-								791
-							]
-						],
-						"settings":
-						{
-							"color_helper.box_height": 20,
-							"color_helper.color_scheme": "Monokai.sublime-color-scheme",
-							"color_helper.file_palette":
-							[
-							],
-							"color_helper.scan":
-							{
-								"current_ext": ".js",
-								"current_syntax": "Babel/JavaScript (Babel)",
-								"enabled": false,
-								"last_updated": 1582969527.41
-							},
-							"git_savvy.repo_path": "F:\\web\\react\\json-placeholder-app",
-							"open_with_edit": true,
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
 					"buffer": 6,
-					"file": "src/index.js",
+					"file": "src/components/Users/index.jsx",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 728,
+						"buffer_size": 894,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								727,
-								727
+								858,
+								858
 							]
 						],
 						"settings":
 						{
-							"color_helper.box_height": 20,
+							"color_helper.box_height": 19,
 							"color_helper.color_scheme": "Monokai.sublime-color-scheme",
 							"color_helper.file_palette":
 							[
 							],
-							"color_helper.scan":
+							"color_helper.preview_meta":
 							{
-								"current_ext": ".js",
-								"current_syntax": "Babel/JavaScript (Babel)",
-								"enabled": false,
-								"last_updated": 1582876715.18
 							},
-							"git_savvy.repo_path": "F:\\web\\react\\json-placeholder-app",
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 15,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "src/App.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 853,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								308,
-								308
-							]
-						],
-						"settings":
-						{
-							"color_helper.box_height": 20,
-							"color_helper.color_scheme": "Monokai.sublime-color-scheme",
-							"color_helper.file_palette":
-							[
-							],
 							"color_helper.scan":
 							{
-								"current_ext": ".js",
+								"current_ext": ".jsx",
 								"current_syntax": "Babel/JavaScript (Babel)",
 								"enabled": false,
-								"last_updated": 1582969527.41
+								"last_updated": 1583223081.12
 							},
 							"git_savvy.repo_path": "F:\\web\\react\\json-placeholder-app",
 							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
@@ -1341,320 +1326,25 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
-					"file": "src/components/Users/index.jsx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 902,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								796,
-								796
-							]
-						],
-						"settings":
-						{
-							"color_helper.box_height": 20,
-							"color_helper.color_scheme": "Monokai.sublime-color-scheme",
-							"color_helper.file_palette":
-							[
-							],
-							"color_helper.scan":
-							{
-								"current_ext": ".jsx",
-								"current_syntax": "Babel/JavaScript (Babel)",
-								"enabled": false,
-								"last_updated": 1582969527.41
-							},
-							"git_savvy.repo_path": "F:\\web\\react\\json-placeholder-app",
-							"open_with_edit": true,
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "src/components/Post/index.jsx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 186,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								142,
-								142
-							]
-						],
-						"settings":
-						{
-							"color_helper.box_height": 20,
-							"color_helper.color_scheme": "Monokai.sublime-color-scheme",
-							"color_helper.file_palette":
-							[
-							],
-							"color_helper.scan":
-							{
-								"current_ext": ".jsx",
-								"current_syntax": "Babel/JavaScript (Babel)",
-								"enabled": false,
-								"last_updated": 1582892961.16
-							},
-							"git_savvy.repo_path": "F:\\web\\react\\json-placeholder-app",
-							"open_with_edit": true,
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 13,
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "src/components/Profile/index.jsx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1175,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								570,
-								570
-							]
-						],
-						"settings":
-						{
-							"color_helper.box_height": 20,
-							"color_helper.color_scheme": "Monokai.sublime-color-scheme",
-							"color_helper.file_palette":
-							[
-							],
-							"color_helper.scan":
-							{
-								"current_ext": ".jsx",
-								"current_syntax": "Babel/JavaScript (Babel)",
-								"enabled": false,
-								"last_updated": 1582969527.41
-							},
-							"git_savvy.repo_path": "F:\\web\\react\\json-placeholder-app",
-							"open_with_edit": true,
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 180.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "src/components/Posts/index.jsx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1580,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1456,
-								1456
-							]
-						],
-						"settings":
-						{
-							"color_helper.box_height": 20,
-							"color_helper.color_scheme": "Monokai.sublime-color-scheme",
-							"color_helper.file_palette":
-							[
-							],
-							"color_helper.scan":
-							{
-								"current_ext": ".jsx",
-								"current_syntax": "Babel/JavaScript (Babel)",
-								"enabled": false,
-								"last_updated": 1582969527.41
-							},
-							"git_savvy.repo_path": "F:\\web\\react\\json-placeholder-app",
-							"open_with_edit": true,
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 120.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 12,
-					"file": "package.json",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 1023,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"color_helper.box_height": 20,
-							"color_helper.color_scheme": "Monokai.sublime-color-scheme",
-							"color_helper.file_palette":
-							[
-							],
-							"color_helper.scan":
-							{
-								"current_ext": ".json",
-								"current_syntax": "JavaScript/JSON",
-								"enabled": false,
-								"last_updated": 1582969527.41
-							},
-							"git_savvy.repo_path": "F:\\web\\react\\json-placeholder-app",
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 480.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 13,
+					"buffer": 7,
 					"file": "src/components/Albums/index.jsx",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 371,
+						"buffer_size": 422,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								344,
-								344
+								366,
+								366
 							]
 						],
 						"settings":
 						{
-							"color_helper.box_height": 20,
-							"color_helper.color_scheme": "Monokai.sublime-color-scheme",
-							"color_helper.file_palette":
-							[
-							],
-							"color_helper.scan":
-							{
-								"current_ext": ".jsx",
-								"current_syntax": "Babel/JavaScript (Babel)",
-								"enabled": false,
-								"last_updated": 1582892961.16
-							},
-							"git_savvy.repo_path": "F:\\web\\react\\json-placeholder-app",
-							"open_with_edit": true,
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 12,
-					"type": "text"
-				},
-				{
-					"buffer": 14,
-					"file": "src/components/Album/index.jsx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 149,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								130,
-								130
-							]
-						],
-						"settings":
-						{
-							"color_helper.box_height": 20,
-							"color_helper.color_scheme": "Monokai.sublime-color-scheme",
-							"color_helper.file_palette":
-							[
-							],
-							"color_helper.scan":
-							{
-								"current_ext": ".jsx",
-								"current_syntax": "Babel/JavaScript (Babel)",
-								"enabled": false,
-								"last_updated": 1582892961.16
-							},
-							"git_savvy.repo_path": "F:\\web\\react\\json-placeholder-app",
-							"open_with_edit": true,
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 11,
-					"type": "text"
-				},
-				{
-					"buffer": 15,
-					"file": "src/components/User/index.jsx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2901,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1474,
-								1474
-							]
-						],
-						"settings":
-						{
-							"color_helper.box_height": 20,
+							"color_helper.box_height": 19,
 							"color_helper.color_scheme": "Monokai.sublime-color-scheme",
 							"color_helper.file_palette":
 							[
@@ -1667,51 +1357,9 @@
 								"current_ext": ".jsx",
 								"current_syntax": "Babel/JavaScript (Babel)",
 								"enabled": false,
-								"last_updated": 1582987257.59
+								"last_updated": 1583223081.12
 							},
 							"git_savvy.repo_path": "F:\\web\\react\\json-placeholder-app",
-							"open_with_edit": true,
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
-						},
-						"translation.x": 75.0,
-						"translation.y": 420.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 16,
-					"file": "/F/web/react/my-app/src/components/Users/User/User.jsx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1909,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1486,
-								1500
-							]
-						],
-						"settings":
-						{
-							"color_helper.box_height": 20,
-							"color_helper.color_scheme": "Monokai.sublime-color-scheme",
-							"color_helper.file_palette":
-							[
-							],
-							"color_helper.scan":
-							{
-								"current_ext": ".jsx",
-								"current_syntax": "Babel/JavaScript (Babel)",
-								"enabled": false,
-								"last_updated": 1582795304.05
-							},
-							"git_savvy.repo_path": "F:\\web\\react\\my-app",
 							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
@@ -1720,120 +1368,231 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 16,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 17,
-					"file": "/F/web/react/my-app/src/App.js",
+					"buffer": 8,
+					"file": "src/components/Album/index.jsx",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1766,
+						"buffer_size": 173,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								173,
+								173
 							]
 						],
 						"settings":
 						{
-							"color_helper.box_height": 20,
+							"color_helper.box_height": 19,
 							"color_helper.color_scheme": "Monokai.sublime-color-scheme",
 							"color_helper.file_palette":
 							[
 							],
-							"color_helper.scan":
+							"color_helper.preview_meta":
 							{
-								"current_ext": ".js",
-								"current_syntax": "JavaScript/JavaScript",
-								"enabled": false,
-								"last_updated": 1582795304.05
 							},
-							"git_savvy.repo_path": "F:\\web\\react\\my-app",
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 60.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 18,
-					"type": "text"
-				},
-				{
-					"buffer": 18,
-					"file": "src/styles/index.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 549,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								398,
-								549
-							]
-						],
-						"settings":
-						{
-							"color_helper.box_height": 20,
-							"color_helper.color_scheme": "Monokai.sublime-color-scheme",
-							"color_helper.file_palette":
-							[
-							],
-							"color_helper.popup_active": false,
-							"color_helper.popup_auto": true,
 							"color_helper.scan":
 							{
-								"allowed_colors":
-								[
-									"hexa",
-									"hex",
-									"graya",
-									"hwba",
-									"hsla",
-									"hsl",
-									"hwb",
-									"hex_compressed",
-									"webcolors",
-									"gray",
-									"rgba",
-									"hexa_compressed",
-									"rgb"
-								],
-								"compress_hex_output": true,
-								"current_ext": ".scss",
-								"current_syntax": "SCSS/SCSS",
-								"enabled": true,
-								"last_updated": 1582969527.41,
-								"scan_completion_scopes":
-								[
-									"source.scss"
-								],
-								"scan_scopes":
-								[
-									"source.scss -comment -string"
-								],
-								"use_hex_argb": false
+								"current_ext": ".jsx",
+								"current_syntax": "Babel/JavaScript (Babel)",
+								"enabled": false,
+								"last_updated": 1583223081.12
 							},
 							"git_savvy.repo_path": "F:\\web\\react\\json-placeholder-app",
-							"open_with_edit": true,
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "src/components/Post/index.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 274,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								263,
+								69
+							]
+						],
+						"settings":
+						{
+							"color_helper.box_height": 19,
+							"color_helper.color_scheme": "Monokai.sublime-color-scheme",
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.preview_meta":
+							{
+							},
+							"color_helper.scan":
+							{
+								"current_ext": ".jsx",
+								"current_syntax": "Babel/JavaScript (Babel)",
+								"enabled": false,
+								"last_updated": 1583223081.12
+							},
+							"git_savvy.repo_path": "F:\\web\\react\\json-placeholder-app",
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "src/components/Posts/index.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 374,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								374,
+								374
+							]
+						],
+						"settings":
+						{
+							"color_helper.box_height": 19,
+							"color_helper.color_scheme": "Monokai.sublime-color-scheme",
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.preview_meta":
+							{
+							},
+							"color_helper.scan":
+							{
+								"current_ext": ".jsx",
+								"current_syntax": "Babel/JavaScript (Babel)",
+								"enabled": false,
+								"last_updated": 1583223081.12
+							},
+							"git_savvy.repo_path": "F:\\web\\react\\json-placeholder-app",
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "src/reducers/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1593,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								301,
+								301
+							]
+						],
+						"settings":
+						{
+							"color_helper.box_height": 19,
+							"color_helper.color_scheme": "Monokai.sublime-color-scheme",
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.preview_meta":
+							{
+							},
+							"color_helper.scan":
+							{
+								"current_ext": ".js",
+								"current_syntax": "JavaScript/JavaScript",
+								"enabled": false,
+								"last_updated": 1583135620.02
+							},
+							"git_savvy.repo_path": "F:\\web\\react\\json-placeholder-app",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 114.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "src/api/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1307,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								599,
+								599
+							]
+						],
+						"settings":
+						{
+							"color_helper.box_height": 19,
+							"color_helper.color_scheme": "Monokai.sublime-color-scheme",
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.preview_meta":
+							{
+							},
+							"color_helper.scan":
+							{
+								"current_ext": ".js",
+								"current_syntax": "JavaScript/JavaScript",
+								"enabled": false,
+								"last_updated": 1583223081.12
+							},
+							"git_savvy.repo_path": "F:\\web\\react\\json-placeholder-app",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
 					"type": "text"
 				}
 			]
@@ -1841,7 +1600,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 29.0
+		"height": 31.0
 	},
 	"input":
 	{
@@ -1886,7 +1645,7 @@
 	"project": "json-placeholder-app.sublime-project",
 	"replace":
 	{
-		"height": 54.0
+		"height": 79.0
 	},
 	"save_all_on_build": true,
 	"select_file":

@@ -7,12 +7,14 @@ import  { getData } from './reducers'
 
 const App = ({ users, isEmpty, getData }) => {
   console.log(users)
-  useEffect( () => { if( isEmpty ) getData() }, [ isEmpty ])
-  if (isEmpty) return (<div>Loading.......</div>)
+  useEffect( () => { if ( isEmpty ) getData() }, [ isEmpty ])
+  if (isEmpty) return (<div> Loading....... </div>)
   return (
-    <div className="App">
-      <Route exact path = '/' render = { () => <Users usersData = { users.data }/>}/>
-      <Route path = '/profile/:id/:name' render = { () => <Profile />}/>
+    <div uk-parallax="bgy:50" className ="App  app__wrapper uk-section uk-section-default uk-padding-remove-top section">
+      <div className = "uk-container container">
+        <Route exact path = '/' render = { () => <Users usersData = { users.data }/>}/>
+        <Route path = '/profile/:id/:name' render = { () => <Profile />}/>
+      </div>
     </div>
   );
 } 

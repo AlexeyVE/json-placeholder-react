@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import { NavLink } from 'react-router-dom'
 import { randomUserPhoto } from '../../api/'
 // import { connect } from 'react-redux'
@@ -6,14 +6,14 @@ import { randomUserPhoto } from '../../api/'
 
 
 
-export default ({ name, userId,address,email,phone}) => {
+export default ({ name, userId, address,email,phone}) => {
   return (
-    <div className="uk-margin-big uk-height-big" >
+    <div className="" >
       <div className="uk-card uk-card-default uk-card-small uk-card-hover card">
         <div className="uk-card-header ">
           <div className="uk-grid-small uk-flex-middle " uk-grid="true">
             <div className="uk-width-auto ">
-              <img className="uk-border-circle" width="50" height="50" src = { randomUserPhoto() }alt="img"/>
+              <img className="uk-border-circle" width="50" height="50" src = { randomUserPhoto() } alt="no-photo"/>
             </div>
             <div className="uk-width-expand">
               <p className="uk-margin-remove-bottom">{ name }</p>

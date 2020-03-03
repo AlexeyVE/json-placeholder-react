@@ -2,9 +2,11 @@ import React from 'react'
 
 export default ( props ) => {
   return (
-    <div className = "post">
-      <h4>{ props.postTitle }</h4>
-      <p>{ props.postBody } </p>
-    </div>  
+    <li className="post uk-text-left">
+      <a className="uk-accordion-title">{ props.postTitle }</a>
+      <div className="uk-accordion-content">
+        <p>{ props.postBody } </p>
+      </div>
+    </li>    
     )
 }
